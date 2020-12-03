@@ -6,4 +6,6 @@
 
     <color name="colorOnPrimary">#FFFFFF</color>
     <color name="colorToolbarAccent">#FFFFFF</color>
+
+    <color name="colorTransparent">#0000</color>
 </resources>

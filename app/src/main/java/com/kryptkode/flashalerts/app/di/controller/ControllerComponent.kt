@@ -1,6 +1,8 @@
 package com.kryptkode.flashalerts.app.di.controller
 
 import com.kryptkode.flashalerts.screens.home.MainActivity
+import com.kryptkode.flashalerts.screens.infodialog.InfoDialog
+import com.kryptkode.flashalerts.screens.rating.RatingDialog
 import com.kryptkode.flashalerts.screens.splash.SplashActivity
 import dagger.Subcomponent
 
@@ -17,4 +19,6 @@ import dagger.Subcomponent
 interface ControllerComponent {
     fun inject(mainActivity: MainActivity)
     fun inject(mainActivity: SplashActivity)
+    fun inject(infoDialog: InfoDialog)
+    fun inject(ratingDialog: RatingDialog)
 }
