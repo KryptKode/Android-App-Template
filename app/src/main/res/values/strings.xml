@@ -1,4 +1,37 @@
 <resources>
     <string name="app_name">Flash Alerts</string>
     <string name="toggle_item_icon_content_description">Action icon</string>
+
+    <string name="dialog_btn_cancel_text">Cancel</string>
+    <string name="dialog_btn_ok_text">OK</string>
+
+
+    <!--VALIDATION-->
+    <string name="validation_email_required_message">Your email is required</string>
+    <string name="validation_valid_email_required_message">Please enter a valid email</string>
+    <string name="validation_name_required_message">Please enter your name</string>
+    <string name="validation_name_short_message">Please enter a name greater than %d characters</string>
+    <string name="validation_password_required_message">A password is required</string>
+    <string name="validation_password_short_message">Please enter a password greater than %d characters</string>
+    <string name="retry_text">Retry</string>
+    <string name="error_message_generic">An error occurred. Please try again</string>
+    <string name="press_to_exit">Press again to exit</string>
+
+
+    <string name="share_msg">Share with…</string>
+    <string name="share_text">Hey, check out this awesome app!\n%s</string>
+    <string name="whats_app_not_installed_error_message">Whatsapp was not found, please install and try again</string>
+    <string name="facebook_not_installed_error_message">Facebook app was not found, please install and try again</string>
+    <string name="twitter_not_installed_error_message">Twitter app was not found, please install and try again</string>
+    <string name="other_share_error_message">An error occurred while sharing, please try again</string>
+    <string name="share_with">Share with…</string>
+    <string name="open_playstore_with">Open with</string>
+    <string name="share_image_text">Download %1$s for more %2$s</string>
+    <string name="send_email_hint">Send with…</string>
+
+
+    <string name="rating_btn_ok_text">Yes</string>
+    <string name="rating_btn_cancel_text">No</string>
+    <string name="contact_us_hint">Contact Us</string>
+    <string name="remote_update_failed_msg">Error occurred while updating.</string>
 </resources>

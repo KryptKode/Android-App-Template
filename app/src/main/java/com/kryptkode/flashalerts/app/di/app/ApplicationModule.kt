@@ -1,8 +1,12 @@
 package com.kryptkode.flashalerts.app.di.app
 
 import android.app.Application
+import com.kryptkode.flashalerts.app.dispatcher.AppDispatchers
+import com.kryptkode.flashalerts.app.dispatcher.AppDispatchersImpl
 import com.kryptkode.flashalerts.app.logger.Logger
 import com.kryptkode.flashalerts.app.logger.LoggerImpl
+import com.kryptkode.flashalerts.datareturn.ScreenDataReturnBuffer
+import com.kryptkode.flashalerts.app.datareturn.ScreenDataReturnBufferImpl
 import dagger.Module
 import dagger.Provides
 
@@ -24,5 +28,17 @@ class ApplicationModule(private val application: Application) {
         return LoggerImpl()
     }
 
+
+    @ApplicationScope
+    @Provides
+    fun provideAppDispatcher(): AppDispatchers {
+        return AppDispatchersImpl()
+    }
+
+    @ApplicationScope
+    @Provides
+    fun provideScreenReturnBuffer(): ScreenDataReturnBuffer {
+        return ScreenDataReturnBufferImpl()
+    }
 
 }
